@@ -66,7 +66,7 @@ resource "local_file" "nginx-conf" {
   }
 
   data "digitalocean_ssh_key" "ww-1" {
-    name = var.db_ssh_key
+    name = var.do_ssh_key
   }
 
 resource "digitalocean_droplet" "nginx" {
