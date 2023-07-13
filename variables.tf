@@ -50,7 +50,7 @@ variable do_size {
 
 variable do_ssh_key {
     type = string
-    default = "DEVSECOPS"
+    default = "ww-1"
 }
 
 variable ssh_private_key {
