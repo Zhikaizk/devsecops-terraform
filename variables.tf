@@ -8,7 +8,7 @@ variable docker_host {
 
 }
 
-vairable docker_cert_path {
+variable docker_cert_path {
     type = string
     sensitive = true
 }
